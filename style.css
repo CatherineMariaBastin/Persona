@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body{
+    background-color:rgba(39, 38, 38, 1);
+    color:white;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+nav{
+    font-size:12px;
+    display:flex;
+    font-family:VT323;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 0 4px rgba(0,0,0,0.1);
+    background-color:rgba(39, 38, 38, 1);
+}
+.nav-link a{
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+}
+.nav-link a:hover{
+    color: #38E19B;
+    background-color:rgba(39, 38, 38, 1);
+}
+.home-container{
+    margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    padding: 20px 40px;
+}
+h3{
+    font-size:28px;
+    font-family:VT323;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#38E19B;
+    margin-bottom:20px;
+    font-family:Merriweather;
+}
+#b1,#b2{
+    display:inline-block;
+    background-color:#38E19B;
+    color: white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:5px;
+    margin-right:40px;
+    box-shadow:0 2px 5px #76d7af;
+}
+#b2{
+    background-color:rgb(76, 76, 76);
+    border:1px solid white;
+    box-shadow:0 2px 5px #b5c6bf;
+}
+#b1:hover{
+    background-color: white;
+    color: #38E19B;
+    transition: all 0.3s ease;
+    box-shadow:0 2px 5px #b5c6bf;
+}
+#b2:hover{
+    background-color: white;
+    color: #38E19B;
+    transition: all 0.3s ease;
+}
+#image img {
+    border-radius:50%;
+    object-fit:cover;
+    width:150px;
+    height:150px;
+}
+
+.about-container,.skills-container,.edu-container{
+    font-family:VT323;
+    display:flex;
+    gap:100px;
+    margin-top:80px;
+    transition:all ease 0.3s;
+    padding: 20px 40px;
+}
+#abouthead,#skillhead,#eduhead{
+    font-size:32px;
+    margin-top:75px;
+}
+#icon{
+    font-size:32px;
+    color:#38E19B;
+}
+
+ul.top-level {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.top-level li ul {
+    list-style-type: disc; 
+    margin-left: 40px; 
+}
+.project-container{
+    font-family:VT323;
+    display:flex;
+    gap:50px;
+    margin-top:100px;
+    transition:all ease 0.3s;
+    background-color:#38E19B;
+    padding: 20px 40px;
+    color:rgb(76, 76, 76);
+    box-shadow:0 0 10px #4cc793;
+}
+.project-container:hover {
+    background-color:rgb(76,76,76);
+    color: #38E19B;
+    box-shadow:0 0 10px #535f5a;
+}
+#projecthead{
+    font-size:32px;
+}
+#projecttext {
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+#projecttext p {
+  margin: 0;
+}
+#prbutt{
+    display:inline-block;
+    background-color:rgb(76, 76, 76);;
+    color: #38E19B;
+    border-radius:5px;
+    text-decoration:none;
+    padding:5px;
+    box-shadow:0 2px 5px #333534;
+    width:110px;
+}
+#prbutt:hover{
+    background-color:white;
+    color:rgb(76, 76, 76);
+}
+
+.contact-container{
+    font-family:VT323;
+    display:flex;
+    gap:20%;
+    margin-top:80px;
+    transition:all ease 0.3s;
+    padding: 20px 40px;
+}
+
+#conbutt{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+#linkedin,#github{
+    border-radius:5px;
+    text-decoration:none;
+    padding:5px;
+    margin-right:40px;
+    background-color:rgb(76, 76, 76);
+    border:1px solid white;
+    box-shadow:0 2px 5px #b5c6bf;
+    color:white;
+    display:flex;
+    gap:5px;
+}
+
+#linkedin:hover,#github:hover{   
+    background-color:#38E19B;
+    border:1px solid rgb(76, 76, 76);
+    box-shadow:0 2px 5px #375247;
+    color:rgb(76, 76, 76);
+}
+
+#work{
+    font-family:Merriweather;
+}
+
+.foot-container{
+    font-size:8px;
+    display:flex;
+    font-family:Merriweather;
+    gap:13rem;
+    margin-top:40px;
+    margin-bottom:40px;
+    padding: 20px 40px;
+}
+
+#policy,#statement{
+    text-decoration:none;
+    color:white;
+}
